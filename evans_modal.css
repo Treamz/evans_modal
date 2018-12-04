@@ -1,0 +1,43 @@
+/***
+Ivan Chernoknizhnikov
+***/
+* {
+	margin: 0;
+}
+#evans_modal {
+	position: fixed;
+	top: 0;
+	background: rgba(0,0,0,.5);
+	width: 100%;
+	padding-top: 100px;
+	height: 100%;
+	transition: all .4s;
+	
+}
+.evans_modal {
+	opacity: 0;
+	z-index: -1;
+	display: block;
+	visibility: hidden;
+}
+.active_modal {
+	opacity: 1;
+	z-index: 1;
+	visibility: visible;
+}
+
+.evans_modal_content {
+
+	display: block;
+	
+	margin: auto;
+}
+
+.evans_modal_content img {
+display: block;
+	margin: 0 auto;
+}
+
+#emodal {
+	display: inline-block;
+}
